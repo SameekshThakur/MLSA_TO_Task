@@ -16,9 +16,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/blank-792125_1280.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "This is background image for the about section. It is a blank piece of paper with a pen on top of it.";
 
 /**
  * Sort description that expands on your title on the Home component.

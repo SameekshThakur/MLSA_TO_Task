@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/student-849825_1280.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "This is an image of a desk with a laptop, notebook, and pen. It is a creative space for someone to work and create.";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "MovieFlixx Application 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This is a web application, which showcases the ratings of the latest movies, and shows to the users. It is built using vanilla , and uses the TMDB API to fetch the data.",
+    url: "https://st-flixx-app.vercel.app/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "OmniFood Website",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "OmniFood Web Application is an example of the modern website with best responsive design practises, which is built using HTML5, CSS3.",
+    url: "https://st-omnifood-app.netlify.app/",
   },
   {
     title: "My Resume Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This is my personal website which showcases my resume, my projects, testimonials and contact page. It is built using HTML5, Sass, Framer Motion and ReactJS. It is hosted on Netlify.",
+    url: "https://st-portfolio-app.netlify.app/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "ToDo Application",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This is a simple ToDo application, which is built using JavaScript including all CRUD functionalities, and uses the local storage to store the data.",
+    url: "https://todo-task-manager-list.netlify.app/",
   },
 ];
 
